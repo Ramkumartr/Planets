@@ -38,6 +38,7 @@ extension UIColor {
     
     enum Background {
         static let charcoal: UIColor = UIColor.charcoal
+        static let white: UIColor = UIColor.white
     }
     
     enum Brand {
