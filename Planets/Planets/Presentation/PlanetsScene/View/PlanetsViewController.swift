@@ -55,8 +55,8 @@ final class PlanetsViewController: UIViewController, Alertable {
         
         self.title = vm.screenTitle
         view.addSubview(tableView)
-        tableView.backgroundColor = .white
-        view.backgroundColor = .white
+        tableView.backgroundColor = UIColor.Background.white
+        view.backgroundColor = UIColor.Background.white
         
         NSLayoutConstraint.activate([
             tableView.topAnchor.constraint(equalTo: view.topAnchor),
