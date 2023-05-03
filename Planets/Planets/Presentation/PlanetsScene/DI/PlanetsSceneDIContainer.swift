@@ -34,7 +34,7 @@ final class PlanetsSceneDIContainer {
     }
     
     
-    // MARK: - Movies List
+    // MARK: - Planet List
     func makePlanetsViewController(actions: PlanetsViewModelActions) -> PlanetsViewController {
         return PlanetsViewController.create(with: makePlanetsViewModel(actions: actions))
     }
