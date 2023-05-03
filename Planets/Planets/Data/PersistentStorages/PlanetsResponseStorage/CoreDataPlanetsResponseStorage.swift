@@ -64,7 +64,7 @@ extension CoreDataPlanetsResponseStorage: PlanetsResponseStorage {
                 try context.save()
             } catch {
                 // TODO: - Log to Crashlytics
-                debugPrint("CoreDataMoviesResponseStorage Unresolved error \(error), \((error as NSError).userInfo)")
+                debugPrint("CoreDataStorage Unresolved error \(error), \((error as NSError).userInfo)")
             }
         }
     }

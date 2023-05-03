@@ -37,6 +37,7 @@ class PlanetCell: UITableViewCell {
     
     // MARK: - SetupUI
     func setupUI() {
+        contentView.backgroundColor = .white
         contentView.addSubview(nameLabel)
         NSLayoutConstraint.activate([
             nameLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 10),
